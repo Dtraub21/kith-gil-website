@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: red;  /* Set background color to red */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .kith-gil-image {
+    width: 150px; /* Adjust this value to make the image bigger or smaller */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 0; /* Ensure border-radius is set to 0 to avoid circular cropping */
+  }
+  
+  .links a {
+    display: block;
+    margin: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 10px;
+  }
+  
+  .links a:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+  }
+  
